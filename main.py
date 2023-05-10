@@ -9,7 +9,8 @@ choice = random.randint(1,3)
 
 usr = input("Rock, Paper or Scissors: ").lower()
 
-
+# rock
+####
 if choice == rock:
   choice = "Rock"
   print("Rock")
@@ -23,6 +24,7 @@ if choice == rock:
 
 
 # paper
+#####
 elif choice == paper:
   choice = "Paper"
   print("Paper")
@@ -34,6 +36,7 @@ elif choice == paper:
     print("You win!")
      
 # scissors
+####
 elif choice == scissors:
   
   choice = "Scissors"
